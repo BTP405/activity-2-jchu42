@@ -1,6 +1,11 @@
 import sys
 
 def showstats(function):
+    """Displays data on lines of lists of numbers
+
+    Keyword Arguments:
+    function -- a function that returns a list of a string of numbers separated by " ". 
+    """
     def wrapper(filename):
         #vals = function ()
         #for line in file:

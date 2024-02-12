@@ -12,6 +12,9 @@ import sys
 # 	return True
 
 def isPrime(n):
+	"""Determine if the number n is prime
+	Note: doesn't retain a list of primes, so it's not very efficient
+	"""
 	#i = 0
 	#sqrt = n**0.5
 	for i in range(2, int(n**0.5) + 1):
